@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: green;
+    height: 100%;
+    width: 100%;
+ }
+ .one{ 
+    background: green;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+     width:300px;
+     height: 100px;
+    
+   
+}
+.tow{
+    background: orange;
+    display: flex;
+    flex-direction:row;
+    width:300px;
+        height: 100px;
+      justify-content: flex-start;
+}
+.three{
+    background: lightblue;
+    display: flex;
+    flex-direction:row;
+    width:300px;
+    height: 100px;
+      justify-content: flex-start;
+}
+.four{
+    background: purple;
+    display: flex;
+    flex-direction:row;
+    width:300px;
+    height: 100px;
+     justify-content: flex-start;
+}
+.five{
+    background: black;
+    display: flex;
+    flex-direction:row;
+    width:300px;
+    height: 100px;
+    justify-content: flex-start;
+}
+.six{
+    background: #a6a6a4;
+    display: flex;
+    flex-direction:row;
+    width:300px;
+    height: 100px;
+    justify-content: flex-start;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+.text{
+    font-size: 30px;
+    color: white;
+}
+p{
+    margin: auto;
+    
+}
+.chat{
+    display: flex;
+    background-color: #e8e8e8;
+    width: 600px;
+    height: 100px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+h1{
+  margin: auto;
+ font-size: 64px;
+}
+
+.imgs {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  a{
+      text-decoration: none;
+  }
+
+/*----------- CSS animation (Start) -----------*/
+.animation {
+    position: relative;
+animation-name: example;
+animation-duration: 4s;
+}
+
+@keyframes example {
+    /* center */
+0%   {background-color:#a6a6a4; left:0px; top:0px;}
+     /* right/top */ 
+25%  {background-color:green; left:400px; top:0px;}
+  /* left/down */
+75%  {background-color:lightblue; left:-400px; top:0px;}
+
+}
+/*----------- CSS animation (End) -----------*/
